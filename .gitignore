@@ -1,3 +1,13 @@
 photos
 
-scraped_data.csv
+.env
+
+CheMed123_data.csv
+
+DoctorsET_data.csv
+
+EAHCI_data.csv
+
+lobelia4cosmetics_data.csv
+
+yetenaweg_data.csv
