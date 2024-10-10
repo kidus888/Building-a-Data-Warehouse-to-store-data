@@ -1,0 +1,38 @@
+2024-10-10 11:38:17,790 - ERROR - Error in main function: No phone number or bot token provided.
+2024-10-10 11:39:43,117 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-10-10 11:39:45,719 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-10-10 11:39:47,068 - INFO - Phone migrated to 4
+2024-10-10 11:39:47,358 - INFO - Reconnecting to new data center 4
+2024-10-10 11:39:47,679 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2024-10-10 11:39:47,682 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2024-10-10 11:39:47,684 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2024-10-10 11:39:50,120 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2024-10-10 11:40:59,437 - INFO - Client started successfully.
+2024-10-10 11:40:59,744 - WARNING - No last ID file found for @DoctorsET. Starting from 0.
+2024-10-10 11:41:00,442 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-10 11:41:01,523 - INFO - Downloaded media for message ID 864.
+2024-10-10 11:41:01,523 - INFO - Processed message ID 864 from @DoctorsET.
+2024-10-10 11:41:08,858 - INFO - Saved last processed ID 864 for @DoctorsET.
+2024-10-10 11:41:08,859 - INFO - Scraped data from @DoctorsET.
+2024-10-10 11:41:09,164 - WARNING - No last ID file found for @CheMed123. Starting from 0.
+2024-10-10 11:41:09,582 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-10 11:41:10,009 - INFO - Downloaded media for message ID 97.
+2024-10-10 11:41:10,009 - INFO - Processed message ID 97 from @CheMed123.
+2024-10-10 11:41:10,010 - INFO - Saved last processed ID 97 for @CheMed123.
+2024-10-10 11:41:10,010 - INFO - Scraped data from @CheMed123.
+2024-10-10 11:41:10,289 - WARNING - No last ID file found for @lobelia4cosmetics. Starting from 0.
+2024-10-10 11:41:10,666 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-10 11:41:11,471 - INFO - Downloaded media for message ID 12385.
+2024-10-10 11:41:11,471 - INFO - Processed message ID 12385 from @lobelia4cosmetics.
+2024-10-10 11:41:34,762 - INFO - Saved last processed ID 12385 for @lobelia4cosmetics.
+2024-10-10 11:41:34,762 - INFO - Scraped data from @lobelia4cosmetics.
+2024-10-10 11:41:35,069 - WARNING - No last ID file found for @yetenaweg. Starting from 0.
+2024-10-10 11:41:35,509 - INFO - Processed message ID 1181 from @yetenaweg.
+2024-10-10 11:41:45,436 - INFO - Saved last processed ID 1181 for @yetenaweg.
+2024-10-10 11:41:45,436 - INFO - Scraped data from @yetenaweg.
+2024-10-10 11:41:45,719 - WARNING - No last ID file found for @EAHCI. Starting from 0.
+2024-10-10 11:41:46,255 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2024-10-10 11:41:46,561 - INFO - Downloaded media for message ID 2395.
+2024-10-10 11:41:46,561 - INFO - Processed message ID 2395 from @EAHCI.
+2024-10-10 11:42:06,081 - INFO - Saved last processed ID 2395 for @EAHCI.
+2024-10-10 11:42:06,082 - INFO - Scraped data from @EAHCI.
