@@ -71,7 +71,7 @@ async def main():
         # Load channels from JSON file
         channels, comments = load_channels_from_json('channels.json')
         
-        num_messages_to_scrape = 20  # Specify the number of messages to scrape
+        num_messages_to_scrape = 50  # Specify the number of messages to scrape
 
         for channel in channels:
             # Create a CSV file named after the channel

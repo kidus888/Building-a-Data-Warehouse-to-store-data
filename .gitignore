@@ -2,12 +2,6 @@ photos
 
 .env
 
-CheMed123_data.csv
+tele_data
 
-DoctorsET_data.csv
-
-EAHCI_data.csv
-
-lobelia4cosmetics_data.csv
-
-yetenaweg_data.csv
+cleaned_tele_data.csv
