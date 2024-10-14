@@ -3,7 +3,7 @@
 
 WITH filtered_data AS {
     SELECT * 
-    FROM {{source('tele_data')}}
+    FROM {{source('public', 'tele_data')}}
 }
 SELECT
     channel_title,
