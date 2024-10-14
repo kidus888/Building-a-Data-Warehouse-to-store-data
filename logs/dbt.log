@@ -134,3 +134,33 @@ Runtime Error
 [0m13:56:53.034064 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe69e49b190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe69a978d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe69a978c50>]}
 [0m13:56:53.034662 [debug] [MainThread]: Flushing usage events
 [0m13:56:57.012868 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:16:04.013424 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f39f65da350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f39f47dc9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f39f481bcd0>]}
+
+
+============================== 17:16:04.025771 | 17a84666-9491-412b-829e-b455c55b046b ==============================
+[0m17:16:04.025771 [info ] [MainThread]: Running with dbt=1.8.7
+[0m17:16:04.026790 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/kali/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init tele', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:16:04.043447 [debug] [MainThread]: Starter project path: /home/kali/Desktop/vs/Building-a-Data-Warehouse-to-store-data/.venv/lib/python3.11/site-packages/dbt/include/starter_project
+[0m17:16:04.050468 [info ] [MainThread]: 
+Your new dbt project "tele" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:16:04.053332 [info ] [MainThread]: Setting up your profile.
+[0m17:16:39.360647 [info ] [MainThread]: Profile tele written to /home/kali/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:16:39.367573 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 35.44401, "process_user_time": 2.235296, "process_kernel_time": 0.188241, "process_mem_max_rss": "95704", "process_in_blocks": "50", "process_out_blocks": "0"}
+[0m17:16:39.373037 [debug] [MainThread]: Command `dbt init` succeeded at 17:16:39.372205 after 35.45 seconds
+[0m17:16:39.376513 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f39f483e250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f39f4cdb0d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f39f82d3b10>]}
+[0m17:16:39.379843 [debug] [MainThread]: Flushing usage events
+[0m17:17:08.419084 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
