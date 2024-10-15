@@ -1,0 +1,32 @@
+version: 2
+sources:
+  - name: public
+    schema: public
+    tables: 
+      - name: tele_data
+
+
+models:
+  - name: tele_data_transfrmation
+    description: "telegram data transformation"
+    columns:
+      - name: Channel_Title
+        data_tests:
+          - not_null
+      - name: Channel_Username
+        data_tests:
+          - not_null
+      - name: ID
+        data_tests:
+          - not_null  
+      - name: Messages
+        data_tests:
+          - not_null
+      - name: Date
+        data_tests:
+          - not_null
+      - name: Media_path
+        data_tests:
+          - not_null
+ 
+          

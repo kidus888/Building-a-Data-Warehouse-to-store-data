@@ -164,3 +164,45 @@ Happy modeling!
 [0m17:16:39.376513 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f39f483e250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f39f4cdb0d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f39f82d3b10>]}
 [0m17:16:39.379843 [debug] [MainThread]: Flushing usage events
 [0m17:17:08.419084 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
+[0m13:22:56.206454 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc979b97a40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc97a74e840>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc979b96810>]}
+
+
+============================== 13:22:56.210146 | 6ed2e133-cea3-4731-b0ec-9aa7da29eac5 ==============================
+[0m13:22:56.210146 [info ] [MainThread]: Running with dbt=1.8.7
+[0m13:22:56.211108 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/kali/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m13:22:56.221503 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/kali/.dbt')}
+[0m13:22:56.222442 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m13:23:05.791617 [info ] [MainThread]: A project called telegram already exists here.
+[0m13:23:05.795167 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 9.6409025, "process_user_time": 1.464378, "process_kernel_time": 0.107752, "process_mem_max_rss": "86996", "process_in_blocks": "30", "process_out_blocks": "0"}
+[0m13:23:05.798614 [debug] [MainThread]: Command `dbt init` succeeded at 13:23:05.797861 after 9.64 seconds
+[0m13:23:05.800660 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc97a441070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc9797d2330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc9798255b0>]}
+[0m13:23:05.803032 [debug] [MainThread]: Flushing usage events
+[0m13:23:11.216762 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f36a391e840>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f36a3519e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f36a3ef5fa0>]}
+
+
+============================== 13:23:11.220078 | 22074a2d-f898-4959-8840-c245b6229bf5 ==============================
+[0m13:23:11.220078 [info ] [MainThread]: Running with dbt=1.8.7
+[0m13:23:11.221136 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/home/kali/.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:23:14.075366 [debug] [MainThread]: Starter project path: /home/kali/Desktop/vs/Building-a-Data-Warehouse-to-store-data/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m13:23:14.092732 [info ] [MainThread]: 
+Your new dbt project "tele" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:23:14.096168 [info ] [MainThread]: Setting up your profile.
+[0m13:23:55.118559 [info ] [MainThread]: Profile tele written to /home/kali/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m13:23:55.124313 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 43.962612, "process_user_time": 1.856686, "process_kernel_time": 0.179679, "process_mem_max_rss": "91332", "process_in_blocks": "20", "process_out_blocks": "0"}
+[0m13:23:55.129144 [debug] [MainThread]: Command `dbt init` succeeded at 13:23:55.128462 after 43.97 seconds
+[0m13:23:55.131307 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f36a391e840>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f36a2333f50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f36a25815b0>]}
+[0m13:23:55.134322 [debug] [MainThread]: Flushing usage events

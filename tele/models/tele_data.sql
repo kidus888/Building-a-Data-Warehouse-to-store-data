@@ -1,4 +1,4 @@
 {{config(materialized='table')}}
 
 
-SELECT * FROM tele_data 
+SELECT * FROM public.tele_data 
